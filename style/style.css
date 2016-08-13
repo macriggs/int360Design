@@ -1,0 +1,80 @@
+/* Learning Simulator StyleSheet */
+/* Created by SquareCell for Learning Futures */
+body{
+    background-image: url(../photos/classpanorama.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 50% 50%;
+    text-align: center;
+}
+
+#intro {
+    background-color: white;
+}
+#maincontent {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+#scenarioone{
+    position: inherit;
+    left: 10%;
+    padding: 2%;
+    border: thick;
+    background-color: red;
+}
+#scenariotwo{
+    position: inherit;
+    left: 40%;
+    padding: 2%;
+    border: thick;
+    background-color: red;
+}
+#scenariothree{
+    position: inherit;
+    left: 65%;
+    padding: 2%;
+    border: thick;
+    background-color: red;
+}
+#scenariofour{
+    position: inherit;
+    left: 90%;
+    padding: 2%;
+    border: thick;
+    background-color: red;
+}
+
+
+#scenarios{
+    position: fixed;
+    left: 45%;
+    top: 45%;
+    size: auto;
+    width: 50%;
+    background-color: white;
+}
+#prompts{
+    position: inherit;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10%;
+}
+li{
+    display: inline;
+}
+#option1{
+    position: inherit;
+    float: left;
+}
+#option2{
+    position: inherit;
+    float: left;
+}
+#option3{
+    position: inherit;
+    float: left;
+}
